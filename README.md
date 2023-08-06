@@ -42,7 +42,7 @@ This project is currently an idea. There are, however, many other companies who 
 In this project, we are planning to apply Artificial Intelligence (AI) to find the emotional state of the user. In particular, we will use a subfield of AI called Deep Learning which employs the use of deep neural networks (which are analogous to a human brain, where one unit - called activation -  corresponds to a neuron in the human brain.) 
 
 
-
+<img src="./img/deep-neural-network.jpg" width="750" height="500" />
 
 
 
@@ -88,11 +88,11 @@ Additional resources and research studies can be found here
 ## 6/ Additional information
 We commit to protect user privacy as all critical information is encrypted and will not be shared to third-party companies. 
 
-News about depression:
-Depression in fathers and children linked, regardless of genetic relatedness
-            Complex post-traumatic stress disorder 
-           Researchers uncover brain waves related to social behavior
-           Losing a grandmother may trigger rise in depression for some of her survivors
+News about depression: \
+[Depression in fathers and children linked, regardless of genetic relatedness](https://www.sciencedaily.com/releases/2022/07/220706153059.htm) \
+[Complex post-traumatic stress disorder](https://www.sciencedaily.com/releases/2022/07/220701113149.htm) \
+[Researchers uncover brain waves related to social behavior](https://www.sciencedaily.com/releases/2022/06/220627100231.htm) \
+[Losing a grandmother may trigger rise in depression for some of her survivors](https://www.sciencedaily.com/releases/2022/06/220615113247.htm)
 
 
 
