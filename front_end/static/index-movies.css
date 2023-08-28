@@ -1,0 +1,290 @@
+.instance-child,
+.movie1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.movie1 {
+  font-size: 40px;
+  color: var(--color-white);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.instance-child {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-16xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.film-1-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 228px;
+  height: 300px;
+}
+.klaus,
+.rest-and-relax {
+  position: absolute;
+  left: 15px;
+}
+.klaus {
+  top: 315px;
+  font-weight: 600;
+  display: inline-block;
+  width: 220px;
+}
+.rest-and-relax {
+  top: 342px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-dimgray);
+}
+.film-1,
+.film-5 {
+  position: absolute;
+  top: 88px;
+  left: 0;
+  width: 235px;
+  height: 360px;
+}
+.film-5 {
+  top: 516px;
+}
+.ernest-and-celestine {
+  position: absolute;
+  top: 315px;
+  left: 14px;
+  font-weight: 600;
+  display: inline-block;
+  width: 201px;
+}
+.film-2,
+.film-6 {
+  position: absolute;
+  top: 88px;
+  left: 275px;
+  width: 228px;
+  height: 360px;
+}
+.film-6 {
+  top: 516px;
+}
+.boss-baby {
+  position: absolute;
+  top: 315px;
+  left: 18px;
+  font-weight: 600;
+  display: inline-block;
+  width: 201px;
+}
+.family {
+  position: absolute;
+  top: 342px;
+  left: 19px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-dimgray);
+}
+.film-3,
+.film-7 {
+  position: absolute;
+  top: 88px;
+  left: 550px;
+  width: 228px;
+  height: 360px;
+}
+.film-7 {
+  top: 516px;
+}
+.puss-in-boots {
+  position: absolute;
+  top: 311px;
+  left: 27px;
+  font-weight: 600;
+  display: inline-block;
+  width: 201px;
+}
+.adventure-life {
+  position: absolute;
+  top: 338px;
+  left: 27px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-dimgray);
+}
+.film-4,
+.film-8,
+.movie {
+  position: absolute;
+  top: 88px;
+  left: 825px;
+  width: 228px;
+  height: 356px;
+}
+.film-8,
+.movie {
+  top: 516px;
+}
+.movie {
+  top: 100px;
+  left: 160px;
+  width: 1053px;
+  height: 876px;
+}
+.avatar,
+.navigation-line {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ff9b9b;
+}
+.avatar {
+  height: 62.5%;
+  width: 3.47%;
+  top: 17.5%;
+  right: 8.06%;
+  bottom: 20%;
+  left: 88.47%;
+  border-radius: 50%;
+  background-color: #ffd8aa;
+}
+.chat,
+.diary,
+.friends,
+.home,
+.status {
+  position: absolute;
+  width: 11.33%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.chat,
+.diary,
+.friends,
+.status {
+  width: 8.64%;
+  left: 21.95%;
+}
+.diary,
+.friends,
+.status {
+  width: 9.92%;
+  left: 65.01%;
+}
+.friends,
+.status {
+  width: 13.17%;
+  left: 41.22%;
+}
+.friends {
+  width: 14.45%;
+  left: 85.55%;
+}
+.button-menu {
+  position: absolute;
+  height: 38.75%;
+  width: 49.03%;
+  top: 28.75%;
+  right: 23.96%;
+  bottom: 32.5%;
+  left: 27.01%;
+}
+.howde {
+  position: absolute;
+  top: 21.25%;
+  left: 8.96%;
+  font-size: 35px;
+  font-weight: 500;
+}
+.logo-icon {
+  height: 62.5%;
+  width: 3.47%;
+  top: 15%;
+  right: 93.19%;
+  bottom: 22.5%;
+  left: 3.33%;
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bell,
+.logo-icon,
+.user-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.bell {
+  height: 52.5%;
+  width: 2.92%;
+  top: 27.5%;
+  right: 14.1%;
+  bottom: 20%;
+  left: 82.99%;
+  background-color: transparent;
+}
+.user-icon {
+  height: 31.25%;
+  width: 1.74%;
+  top: 32.5%;
+  right: 8.89%;
+  bottom: 36.25%;
+  left: 89.38%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.icons,
+.navigation1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.icons {
+  height: 56.25%;
+  width: 3.26%;
+  top: 23.75%;
+  right: 13.06%;
+  bottom: 20%;
+  left: 83.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 80px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+}
+.movie-reduce {
+  position: relative;
+  width: 100%;
+  height: 1146px;
+  overflow: hidden;
+  background-image: url(./public/364520080_300864082458688_8813676389718746223_n.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray);
+  font-family: var(--font-quicksand);
+}

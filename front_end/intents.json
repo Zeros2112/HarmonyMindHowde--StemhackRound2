@@ -1,0 +1,70 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Hello"
+      ],
+      "responses": [
+        "Hello, thanks for visiting!",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting :)",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "uses",
+      "patterns": ["Your job", "Your function", "What you can do"],
+      "responses": [
+        "My job is to know what you're feeling :)"
+      ]
+    },
+    {
+      "tag": "bad",
+      "patterns": ["Depressed", "Anxious", "Lonely", "Despairing", "Heartbroken", "Despondent", "Miserable", "Melancholic", "Anguished", "Isolated", "Agonized", "Pessimistic", "Distressed", "Tormented", "Worried", "Dejected", "Rejected", "Unhappy", "Dismayed", "Frustrated", "Envious", "Disheartened", "Hopeless", "Guilty", "Crestfallen", "Insecure", "Disappointed", "Resentful", "Forsaken", "Embarrassed", "Hurt", "Desperate", "Defeated", "Unwanted", "Regretful", "Neglected", "Inadequate", "Betrayed", "Abandoned", "Overwhelmed", "Alienated", "Agitated", "Unsettled", "Enraged", "Ashamed", "Jealous", "Inhibited", "Discontented", "Disenchanted", "Dispirited", "Angry"],
+      "responses": [
+        "It seems that you're having a bad mood :( But don't worry, remember, tough days don't last forever, but tough people do!",
+        "It seems that you're having a bad mood :( But don't worry, even the darkest clouds can't hide the shining sun behind them.",
+        "It seems that you're having a bad mood :( But don't worry, smile, because you have the power to turn any day around!",
+        "It seems that you're having a bad mood :( But don't worry, life's challenges are like stepping stones to your dreams.",
+        "It seems that you're having a bad mood :( But don't worry, in every difficulty, there's an opportunity waiting to be discovered.",
+        "It seems that you're having a bad mood :( But don't worry, happiness is a journey, not a destination. Embrace the ride!",
+        "It seems that you're having a bad mood :( But don't worry, you are capable of handling anything life throws at you.",
+        "It seems that you're having a bad mood :( But don't worry, every day is a new chance to create something beautiful.",
+        "It seems that you're having a bad mood :( But don't worry, the best way to predict the future is to create it.",
+        "It seems that you're having a bad mood :( But don't worry, storms may come, but they will always pass. Better days are on the horizon!"
+      ]
+    },
+    {
+      "tag": "good",
+      "patterns": ["Joyful", "Happy", "Ecstatic", "Elated", "Cheerful", "Excited", "Content", "Euphoric", "Thrilled", "Exhilarated", "Grateful", "Enthusiastic", "Optimistic", "Delighted", "Jubilant", "Vibrant", "Satisfied", "Fulfilled", "Hopeful", "Blessed", "Lively", "Radiant", "Amused", "Pleased", "Sunny", "Blissful", "Overjoyed", "Exuberant", "Glad", "Cheery", "Festive", "Giddy", "Eager", "Appreciative", "Upbeat", "Jovial", "Carefree", "Animated", "Contented", "Rejoicing", "Elevated", "Merry", "Gleeful", "Ecstatic", "Triumphant", "Fulfilled", "Serene", "Glowing", "Mirthful", "Buoyant"],
+      "responses": [
+        "It seems that you're having a good mood :) Your radiant smile and positive energy light up the room. It's infectious!",
+        "It seems that you're having a good mood :) I admire how you always manage to maintain such a great mood. It's truly inspiring.",
+        "It seems that you're having a good mood :) You have an incredible ability to lift everyone's spirits with your cheerful disposition.",
+        "It seems that you're having a good mood :) Your positive attitude is a breath of fresh air. It makes any situation more enjoyable.",
+        "It seems that you're having a good mood :) Thank you for being a ray of sunshine in our lives. Your good mood is contagious",
+        "It seems that you're having a good mood :) Your constant optimism and upbeat nature are a real asset to any group.",
+        "It seems that you're having a good mood :) Your good mood is like a magnet; people are naturally drawn to your positivity.",
+        "It seems that you're having a good mood :) You have a special gift for finding joy in the little things, and it's truly heartwarming.",
+        "It seems that you're having a good mood :) Your positive outlook on life is a reminder to us all that good things are always possible.",
+        "It seems that you're having a good mood :) You make even the most mundane tasks enjoyable with your happy demeanor."
+      ]
+    }
+  ]
+}

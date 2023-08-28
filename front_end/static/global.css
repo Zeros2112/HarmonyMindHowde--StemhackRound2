@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-quicksand: Quicksand;
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-6xl: 25px;
+  --font-size-21xl: 40px;
+  --font-size-45xl: 64px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkorange: #ff8832;
+  --color-lemonchiffon: #fffec4;
+
+  /* border radiuses */
+  --br-xl: 20px;
+}

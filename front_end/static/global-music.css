@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-quicksand: Quicksand;
+
+  /* font sizes */
+  --font-size-6xl: 25px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-gray-100: rgba(255, 255, 255, 0);
+  --color-white: #fff;
+  --color-dimgray: #6a6a6a;
+  --color-darkslategray: #404040;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-16xl: 35px;
+}

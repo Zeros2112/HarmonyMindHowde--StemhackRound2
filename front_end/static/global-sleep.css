@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-quicksand: Quicksand;
+
+  /* font sizes */
+  --font-size-6xl: 25px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 40px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-coral: #fe8d47;
+  --color-darkslategray: #404040;
+
+  /* border radiuses */
+  --br-mini: 15px;
+  --br-31xl: 50px;
+  --br-xl: 20px;
+  --br-16xl: 35px;
+}

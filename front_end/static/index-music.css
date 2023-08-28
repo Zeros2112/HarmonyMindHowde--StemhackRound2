@@ -1,0 +1,513 @@
+.water {
+  position: absolute;
+  top: 218px;
+  left: 787px;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+.relaxing-sound1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-21xl);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.component-20-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.component-20-inner,
+.component-20-item {
+  position: absolute;
+  height: 18.39%;
+  width: 22.6%;
+  top: 27.01%;
+  right: 37.29%;
+  bottom: 54.6%;
+  left: 40.11%;
+  background-color: var(--color-gray-100);
+}
+.component-20-inner {
+  height: 14.37%;
+  width: 70.06%;
+  top: 54.6%;
+  right: 12.99%;
+  bottom: 31.03%;
+  left: 16.95%;
+}
+.component-18,
+.component-20,
+.component-21,
+.component-22 {
+  position: absolute;
+  top: 404px;
+  left: 151px;
+  width: 177px;
+  height: 174px;
+}
+.component-18,
+.component-21,
+.component-22 {
+  top: 167px;
+  left: 435px;
+}
+.component-21,
+.component-22 {
+  top: 404px;
+}
+.component-22 {
+  left: 709px;
+}
+.text-wind,
+.wind-sound {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.text-wind {
+  top: 266px;
+  left: 488px;
+  width: 79px;
+  height: 18px;
+}
+.text-bird-song,
+.text-drum,
+.text-time {
+  position: absolute;
+  top: 501px;
+  left: 496px;
+  width: 60px;
+  height: 18px;
+}
+.text-drum,
+.text-time {
+  left: 762px;
+  width: 78px;
+}
+.text-time {
+  top: 505px;
+  left: 222px;
+  width: 40px;
+}
+.component-19,
+.icon,
+.text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 177px;
+  height: 174px;
+}
+.icon,
+.text {
+  top: 99px;
+  left: 46px;
+  width: 92px;
+  height: 18px;
+}
+.icon {
+  height: 6.51%;
+  width: 11.3%;
+  top: 8.36%;
+  right: 42.37%;
+  bottom: 85.13%;
+  left: 46.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ocean-waves {
+  position: absolute;
+  top: 167px;
+  left: 709px;
+  width: 177px;
+  height: 174px;
+}
+.icon-cloud,
+.icon-time {
+  position: absolute;
+  top: 218px;
+  left: 514px;
+  width: 24px;
+  height: 24px;
+}
+.icon-time {
+  top: 455px;
+  left: 231px;
+  width: 28px;
+  height: 28px;
+}
+.drum-icon,
+.earlybirds-icon {
+  position: absolute;
+  top: 455px;
+  left: 512px;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+.drum-icon {
+  top: 456px;
+  left: 791px;
+  width: 19px;
+  height: 19px;
+}
+.icon-rain,
+.video-fill-icon {
+  position: absolute;
+  top: 42px;
+  left: 42px;
+  width: 93px;
+  height: 90px;
+}
+.icon-rain {
+  top: 48px;
+  left: 76px;
+  width: 24px;
+  height: 24px;
+}
+.rain-falling,
+.text-rain {
+  position: absolute;
+  top: 98px;
+  left: 45px;
+  width: 89px;
+  height: 20px;
+}
+.rain-falling {
+  top: 167px;
+  left: 151px;
+  width: 177px;
+  height: 174px;
+  font-size: var(--font-size-base);
+}
+.relaxing-sound {
+  position: absolute;
+  top: 135px;
+  left: 150px;
+  width: 886px;
+  height: 578px;
+}
+.instance-child,
+.music2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.music2 {
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.instance-child {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-16xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.music-1-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 228px;
+  height: 300px;
+}
+.head-in-the {
+  position: absolute;
+  top: 315px;
+  left: 15px;
+  font-weight: 600;
+  display: inline-block;
+  width: 220px;
+}
+.rest-and-relax {
+  position: absolute;
+  top: 342px;
+  left: 15px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-dimgray);
+}
+.music-1 {
+  position: absolute;
+  top: 139px;
+  left: 19px;
+  width: 235px;
+  height: 360px;
+}
+.until-i-found {
+  position: absolute;
+  top: 315px;
+  left: 14px;
+  font-weight: 600;
+  display: inline-block;
+  width: 201px;
+}
+.music-2 {
+  position: absolute;
+  top: 139px;
+  left: 294px;
+  width: 228px;
+  height: 360px;
+}
+.only-the-young {
+  position: absolute;
+  top: 311px;
+  left: 27px;
+  font-weight: 600;
+  display: inline-block;
+  width: 201px;
+}
+.refresh-your-life {
+  position: absolute;
+  top: 338px;
+  left: 27px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-dimgray);
+}
+.music-4 {
+  position: absolute;
+  top: 139px;
+  left: 844px;
+  width: 228px;
+  height: 356px;
+}
+.stand-by-you {
+  position: absolute;
+  top: 315px;
+  left: 18px;
+  font-weight: 600;
+  display: inline-block;
+  width: 201px;
+}
+.boost-the-energy {
+  position: absolute;
+  top: 342px;
+  left: 19px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-dimgray);
+}
+.music-31,
+.new-release-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 228px;
+  height: 360px;
+}
+.new-release-child {
+  border-radius: var(--br-xl);
+  background-color: #ff8832;
+  width: 161px;
+  height: 27px;
+}
+.new-release1 {
+  position: absolute;
+  top: 4px;
+  left: 16px;
+  font-weight: 600;
+  display: inline-block;
+  width: 127px;
+  height: 20px;
+}
+.new-release {
+  position: absolute;
+  top: 370px;
+  left: 19px;
+  width: 161px;
+  height: 27px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.music,
+.music-3,
+.music1 {
+  position: absolute;
+  top: 139px;
+  left: 569px;
+  width: 228px;
+  height: 397px;
+}
+.music,
+.music1 {
+  top: 0;
+  left: 0;
+  width: 1072px;
+  height: 536px;
+}
+.music {
+  top: 834px;
+  left: 170px;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+}
+.avatar,
+.navigation-line {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ff9b9b;
+}
+.avatar {
+  height: 62.5%;
+  width: 3.47%;
+  top: 17.5%;
+  right: 8.06%;
+  bottom: 20%;
+  left: 88.47%;
+  border-radius: 50%;
+  background-color: #ffd8aa;
+}
+.chat,
+.diary,
+.friends,
+.home,
+.status {
+  position: absolute;
+  width: 11.33%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.chat,
+.diary,
+.friends,
+.status {
+  width: 8.64%;
+  left: 21.95%;
+}
+.diary,
+.friends,
+.status {
+  width: 9.92%;
+  left: 65.01%;
+}
+.friends,
+.status {
+  width: 13.17%;
+  left: 41.22%;
+}
+.friends {
+  width: 14.45%;
+  left: 85.55%;
+}
+.button-menu {
+  position: absolute;
+  height: 38.75%;
+  width: 49.03%;
+  top: 28.75%;
+  right: 23.96%;
+  bottom: 32.5%;
+  left: 27.01%;
+}
+.howde {
+  position: absolute;
+  top: 21.25%;
+  left: 8.96%;
+  font-size: 35px;
+  font-weight: 500;
+}
+.logo-icon {
+  height: 62.5%;
+  width: 3.47%;
+  top: 15%;
+  right: 93.19%;
+  bottom: 22.5%;
+  left: 3.33%;
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bell,
+.logo-icon,
+.user-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.bell {
+  height: 52.5%;
+  width: 2.92%;
+  top: 27.5%;
+  right: 14.1%;
+  bottom: 20%;
+  left: 82.99%;
+  background-color: var(--color-gray-100);
+}
+.user-icon {
+  height: 31.25%;
+  width: 1.74%;
+  top: 32.5%;
+  right: 8.89%;
+  bottom: 36.25%;
+  left: 89.38%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.icons,
+.navigation1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.icons {
+  height: 56.25%;
+  width: 3.26%;
+  top: 23.75%;
+  right: 13.06%;
+  bottom: 20%;
+  left: 83.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 80px;
+  font-size: var(--font-size-6xl);
+}
+.music-reduce {
+  position: relative;
+  width: 100%;
+  height: 1510px;
+  overflow: hidden;
+  background-image: url(./public/364520080_300864082458688_8813676389718746223_n.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-quicksand);
+}

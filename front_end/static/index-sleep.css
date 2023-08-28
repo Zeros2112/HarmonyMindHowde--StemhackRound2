@@ -1,0 +1,356 @@
+.meditations {
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.instance-child,
+.meditations,
+.sleep-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.instance-child {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-16xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.sleep-inner {
+  height: 86.42%;
+  width: 95.65%;
+  right: 4.35%;
+  bottom: 13.58%;
+  border-radius: var(--br-xl);
+}
+.sleep-well {
+  margin: 0;
+}
+.deep-sleep {
+  position: absolute;
+  height: 6.57%;
+  width: 92.47%;
+  top: 93.43%;
+  left: 7.53%;
+  font-weight: 600;
+  display: inline-block;
+}
+.sleep,
+.sleep1 {
+  position: absolute;
+  top: 0;
+  left: 402px;
+  width: 230px;
+  height: 324px;
+}
+.sleep1 {
+  top: 420px;
+  left: 405px;
+}
+.image-text,
+.sleep2,
+.sleep3,
+.sleep4,
+.sleep5 {
+  position: absolute;
+  top: 0;
+  left: 800px;
+  width: 230px;
+  height: 324px;
+}
+.image-text,
+.sleep3,
+.sleep4,
+.sleep5 {
+  top: 420px;
+  left: 803px;
+}
+.image-text,
+.sleep4,
+.sleep5 {
+  top: 0;
+  left: 0;
+}
+.image-text,
+.sleep5 {
+  top: 420px;
+  left: 3px;
+}
+.image-text {
+  top: 131px;
+  left: 52px;
+  width: 1033px;
+  height: 744px;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray);
+}
+.maditation {
+  position: absolute;
+  top: 128px;
+  left: 156px;
+  width: 1085px;
+  height: 875px;
+}
+.storiespodcasts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.story1-child {
+  position: absolute;
+  height: 78.78%;
+  width: 86.59%;
+  top: 0;
+  right: 13.41%;
+  bottom: 21.22%;
+  left: 0;
+  border-radius: var(--br-31xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.sleep-cast {
+  position: absolute;
+  height: 11.47%;
+  width: 56.98%;
+  top: 88.66%;
+  left: 9.22%;
+  display: inline-block;
+}
+.story-2,
+.story-4,
+.story1,
+.story3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 358px;
+  height: 344px;
+}
+.story-2,
+.story-4,
+.story3 {
+  top: 446px;
+}
+.story-2,
+.story-4 {
+  top: 0;
+  left: 604px;
+}
+.story-4 {
+  top: 446px;
+}
+.story-child,
+.story-item {
+  position: absolute;
+  top: 670px;
+  border-radius: var(--br-mini);
+  width: 246px;
+  height: 32px;
+}
+.story-child {
+  left: 637px;
+  background-color: #fffec4;
+}
+.story-item {
+  left: 33px;
+  background-color: var(--color-coral);
+}
+.for-kids,
+.new-release {
+  position: absolute;
+  top: 673px;
+  left: 719px;
+  font-weight: 600;
+  color: var(--color-coral);
+  display: inline-block;
+  width: 90px;
+  height: 29px;
+}
+.new-release {
+  left: 92px;
+  color: var(--color-white);
+  width: 135px;
+}
+.waze-icon {
+  top: 675px;
+  left: 681px;
+  width: 23px;
+  height: 23px;
+  overflow: hidden;
+}
+.stories,
+.story,
+.waze-icon {
+  position: absolute;
+}
+.story {
+  top: 115px;
+  left: 89px;
+  width: 962px;
+  height: 790px;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+}
+.stories {
+  top: 1114px;
+  left: 156px;
+  width: 1051px;
+  height: 905px;
+}
+.avatar,
+.navigation-line {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ff9b9b;
+}
+.avatar {
+  height: 62.5%;
+  width: 3.47%;
+  top: 17.5%;
+  right: 8.06%;
+  bottom: 20%;
+  left: 88.47%;
+  border-radius: 50%;
+  background-color: #ffd8aa;
+}
+.chat,
+.diary,
+.friends,
+.home,
+.status {
+  position: absolute;
+  width: 11.33%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.chat,
+.diary,
+.friends,
+.status {
+  width: 8.64%;
+  left: 21.95%;
+}
+.diary,
+.friends,
+.status {
+  width: 9.92%;
+  left: 65.01%;
+}
+.friends,
+.status {
+  width: 13.17%;
+  left: 41.22%;
+}
+.friends {
+  width: 14.45%;
+  left: 85.55%;
+}
+.button-menu {
+  position: absolute;
+  height: 38.75%;
+  width: 49.03%;
+  top: 28.75%;
+  right: 23.96%;
+  bottom: 32.5%;
+  left: 27.01%;
+}
+.howde {
+  position: absolute;
+  top: 21.25%;
+  left: 8.96%;
+  font-size: 35px;
+  font-weight: 500;
+}
+.logo-icon {
+  height: 62.5%;
+  width: 3.47%;
+  top: 15%;
+  right: 93.19%;
+  bottom: 22.5%;
+  left: 3.33%;
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.bell,
+.logo-icon,
+.user-icon {
+  position: absolute;
+  overflow: hidden;
+}
+.bell {
+  height: 52.5%;
+  width: 2.92%;
+  top: 27.5%;
+  right: 14.1%;
+  bottom: 20%;
+  left: 82.99%;
+  background-color: transparent;
+}
+.user-icon {
+  height: 31.25%;
+  width: 1.74%;
+  top: 32.5%;
+  right: 8.89%;
+  bottom: 36.25%;
+  left: 89.38%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.icons,
+.navigation1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.icons {
+  height: 56.25%;
+  width: 3.26%;
+  top: 23.75%;
+  right: 13.06%;
+  bottom: 20%;
+  left: 83.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 80px;
+  font-size: var(--font-size-6xl);
+}
+.sleep-reduce {
+  position: relative;
+  width: 100%;
+  height: 2228px;
+  overflow: hidden;
+  background-image: url(./public/sleep-reduce@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-quicksand);
+}

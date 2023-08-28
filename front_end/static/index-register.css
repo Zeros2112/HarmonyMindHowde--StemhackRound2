@@ -1,0 +1,123 @@
+.register-child,
+.register-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 729px;
+  object-fit: cover;
+}
+.register-item {
+  top: 42px;
+  left: 660px;
+  border-radius: 50%;
+  width: 120px;
+  height: 110px;
+}
+.log-in-with-email-child,
+.register-inner {
+  position: absolute;
+  background-color: var(--color-lemonchiffon);
+}
+.register-inner {
+  top: 193px;
+  left: calc(50% - 199px);
+  border-radius: 30px;
+  width: 397px;
+  height: 485px;
+}
+.log-in-with-email-child {
+  top: 0;
+  left: 0;
+  width: 190px;
+  height: 34px;
+}
+.register-with-email {
+  position: absolute;
+  top: 6px;
+  left: 23px;
+  font-weight: 600;
+}
+.log-in-with-email {
+  position: absolute;
+  top: 224px;
+  left: 562px;
+  width: 190px;
+  height: 34px;
+  color: var(--color-darkorange-100);
+}
+.rectangle-div,
+.register-child1,
+.register-child2 {
+  position: absolute;
+  top: 281px;
+  left: 540px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-lemonchiffon);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 314px;
+  height: 52px;
+}
+.register-child1,
+.register-child2 {
+  top: 354px;
+}
+.register-child2 {
+  top: 435px;
+}
+.email,
+.name,
+.password {
+  position: absolute;
+  top: 296px;
+  left: 583px;
+  font-weight: 600;
+}
+.email,
+.password {
+  top: 369px;
+}
+.password {
+  top: 450px;
+  left: 586px;
+}
+.register-child3 {
+  position: absolute;
+  top: 517px;
+  left: 639px;
+  border-radius: 20px;
+  background-color: var(--color-darkorange-100);
+  width: 161px;
+  height: 36px;
+}
+.register1 {
+  position: absolute;
+  top: 526px;
+  left: 688px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+.log-in {
+  color: rgba(0, 0, 0, 0.86);
+}
+.already-have-an-container {
+  position: absolute;
+  top: 578px;
+  left: 579px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 136, 50, 0.86);
+}
+.register {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 729px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-quicksand);
+}
