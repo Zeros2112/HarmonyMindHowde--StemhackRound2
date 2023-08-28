@@ -1,3 +1,7 @@
+# HOWDE_DEPRESSION_DIAGONIS 
+## Purpose 
+To diagnose and classify whether the text in the *diary* shows stress or not. After comparing Bert, TF-IDF, Word2Vec + TF-IDF, since Bert shows the best results on the test set, it will be used for classification. In addition, the bento-ml is meeting some errors in some versions of TensorFlow so TF-IDF, Word2Vec + TF-IDF model shall not be used.  
+
 # Stress Analysis in Social Media 
 Social media is one of the most common way for people to express "stress" nowadays. Therefore, I conducted a sentiment 
 analysis to extract information and identify stress from social media posts. This project leverages the power of 
@@ -6,6 +10,8 @@ non-stressful posts. It was inspired by the newly published paper called
 [Dreaddit: A Reddit Dataset for Stress Analysis in Social Media](https://arxiv.org/abs/1911.00133).
 
 For more information, please check out [Slides](https://bit.ly/37WNKbu)
+
+
 
 ## Requisites
 - MacOS or Linux
