@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <link rel="stylesheet" href="{{ url_for('static', filename='style-note.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <style>
+      .add-box {
+        margin-top: 100px;
+      }
+    </style>
+    <style>
+      body {
+        zoom: 110%;
+      }
+      .button-menu a {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+        margin-right: 40px;
+      }
+    </style>
+    <style>
+      #dropdownMenu {
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: 550px;
+        background-color: #f9f9f9;
+        border: 1px solid #2596be;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+      }
+  
+      #dropdownMenu.active {
+        display: block;
+      }
+  
+      #dropdownMenu ul {
+        list-style-type: none;
+        padding: 0;
+      }
+  
+      #dropdownMenu ul li {
+        padding: 5px;
+      }
+  
+      #dropdownMenu ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      </style>
+    <div class="component-6">
+      <div class="navigation">
+        <div class="navigation-line"></div>
+        <div class="avatar"></div>
+        <div class="button-menu">
+          <a href="/">Home</a>
+          <a href="/chatbot">Chat</a>
+          <a href="/diary">Diary</a>
+          <a href="/status">Status</a>
+          <a href="/friends">Friends</a>
+          <a href="#" id="funLink">Fun</a>
+          <div id="dropdownMenu">
+            <ul>
+              <li><a href="/movies">Movies</a></li>
+              <li><a href="/music">Music</a></li>
+              <li><a href="/sleep">Sleep</a></li>
+            </ul>
+          </div>
+
+          
+          <script src="{{ url_for('static', filename='public/scriptdropdown.js') }}"></script>
+          
+        </div>
+        <div class="howde">Howde</div>
+        <img class="logo-icon" alt="" src="{{ url_for('static', filename='public/logo@2x.png') }}" />
+
+        <div class="bell"></div>
+        <img class="user-icon" alt="" src="{{ url_for('static', filename='public/user.svg') }}" />
+      </div>
+      <img class="icons1" alt="" src="{{ url_for('static', filename='public/icons.svg') }}" />
+    </div>
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <header>
+            <p></p>
+            <i class="uil uil-times"></i>
+          </header>
+          <form action="#">
+            <div class="row title">
+              <label>Title</label>
+              <input type="text" spellcheck="false">
+            </div>
+            <div class="row description">
+              <label>Description</label>
+              <textarea spellcheck="false"></textarea>
+            </div>
+            <button></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <li class="add-box">
+        <div class="icon"><i class="uil uil-plus"></i></div>
+        <p>Add new diary</p>
+      </li>
+    </div>
+
+    <script src="{{ url_for('static', filename='public/script.js') }}"></script>
+    
+  </body>
+</html>

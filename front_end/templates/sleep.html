@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #dropdownMenu {
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: 550px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+      }
+  
+      #dropdownMenu.active {
+        display: block;
+      }
+  
+      #dropdownMenu ul {
+        list-style-type: none;
+        padding: 0;
+      }
+  
+      #dropdownMenu ul li {
+        padding: 5px;
+      }
+  
+      #dropdownMenu ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      </style>
+      <style>
+        /* Override the anchor tag styles to make the text look like the original text */
+        .button-menu a {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+          margin-right: 40px;
+        }
+        .website-feedback a {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .try-now1 {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .sign-up1 {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      </style>
+      <style>
+        body {
+          zoom: 110%;
+        }
+      </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='global-music.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='index-music.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sleep-reduce">
+      <div class="maditation">
+        <b class="meditations">MEDITATIONS</b>
+        <div class="image-text">
+          <div class="sleep">
+            <div class="sleep-inner">
+              <img
+                class="instance-child"
+                alt=""
+                src="{{ url_for('static', filename='public/rectangle-4167@2x.png') }}"
+              />
+            </div>
+            <div class="deep-sleep">
+              <p class="sleep-well">Sleep Well</p>
+            </div>
+          </div>
+          <div class="sleep1">
+            <div class="sleep-inner">
+              <img
+                class="instance-child"
+                alt=""
+                src="{{ url_for('static', filename='public/rectangle-41671@2x.png') }}"
+              />
+            </div>
+            <div class="deep-sleep">Deep Sleep</div>
+          </div>
+          <div class="sleep2">
+            <div class="sleep-inner">
+              <img
+                class="instance-child"
+                alt=""
+                src="{{ url_for('static', filename='public/rectangle-41672@2x.png') }}"
+              />
+            </div>
+            <div class="deep-sleep">Sweet Dream</div>
+          </div>
+          <div class="sleep3">
+            <div class="sleep-inner">
+              <img
+                class="instance-child"
+                alt=""
+                src="{{ url_for('static', filename='public/rectangle-41673@2x.png') }}"
+              />
+            </div>
+            <div class="deep-sleep">Relaxed Body</div>
+          </div>
+          <div class="sleep4">
+            <div class="sleep-inner">
+              <img
+                class="instance-child"
+                alt=""
+                src="{{ url_for('static', filename='public/rectangle-41674@2x.png') }}"
+              />
+            </div>
+            <div class="deep-sleep">Sleep</div>
+          </div>
+          <div class="sleep5">
+            <div class="sleep-inner">
+              <img
+                class="instance-child"
+                alt=""
+                src="{{ url_for('static', filename='public/rectangle-41675@2x.png') }}"
+              />
+            </div>
+            <div class="deep-sleep">Remove stress</div>
+          </div>
+        </div>
+      </div>
+      <div class="stories">
+        <b class="storiespodcasts">Stories/Podcasts</b>
+        <div class="story">
+          <div class="story1">
+            <img
+              class="story1-child"
+              alt=""
+              src="{{ url_for('static', filename='public/rectangle-4204@2x.png') }}"
+            />
+
+            <b class="sleep-cast">Sleep Cast</b>
+          </div>
+          <div class="story3">
+            <img
+              class="story1-child"
+              alt=""
+              src="{{ url_for('static', filename='public/rectangle-42041@2x.png') }}"
+            />
+
+            <b class="sleep-cast">RePodcast</b>
+          </div>
+          <div class="story-2">
+            <img
+              class="story1-child"
+              alt=""
+              src="{{ url_for('static', filename='public/rectangle-42042@2x.png') }}"
+            />
+
+            <b class="sleep-cast">Calm Stories</b>
+          </div>
+          <div class="story-4">
+            <img
+              class="story1-child"
+              alt=""
+              src="{{ url_for('static', filename='public/rectangle-42043@2x.png') }}"
+            />
+
+            <b class="sleep-cast">Bedtime Stories</b>
+          </div>
+          <div class="story-child"></div>
+          <div class="story-item"></div>
+          <div class="for-kids">For Kids</div>
+          <div class="new-release">New Release</div>
+          <img class="waze-icon" alt="" src="{{ url_for('static', filename='public/waze.svg') }}" />
+        </div>
+      </div>
+      <div class="navigation">
+        <div class="navigation1">
+          <div class="navigation-line"></div>
+          <div class="avatar"></div>
+          <div class="button-menu">
+            <a href="/">Home</a>
+            <a href="/chatbot">Chat</a>
+            <a href="/diary">Diary</a>
+            <a href="/status">Status</a>
+            <a href="/friends">Friends</a>
+            <a href="#" id="funLink">Fun</a>
+            <div id="dropdownMenu">
+              <ul>
+                <li><a href="/movies">Movies</a></li>
+                <li><a href="/music">Music</a></li>
+              </ul>
+            </div>
+
+            
+            <script src="{{ url_for('static', filename='public/scriptdropdown.js') }}"></script>
+            
+          </div>
+          <div class="howde">Howde</div>
+          <img class="logo-icon" alt="" src="{{ url_for('static', filename='public/logo@2x.png') }}" />
+
+          <div class="bell"></div>
+          <img class="user-icon" alt="" src="{{ url_for('static', filename='public/user.svg') }}" />
+        </div>
+        <img class="icons" alt="" src="{{ url_for('static', filename='public/icons.svg') }}" />
+      </div>
+    </div>
+  </body>
+</html>

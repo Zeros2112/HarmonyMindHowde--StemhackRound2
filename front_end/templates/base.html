@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='global.css') }}" />
+<link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}" />
+<style>
+    #dropdownMenu {
+      display: none;
+      position: absolute;
+      top: 30px;
+      left: 550px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      padding: 5px;
+    }
+
+    #dropdownMenu.active {
+      display: block;
+    }
+
+    #dropdownMenu ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #dropdownMenu ul li {
+      padding: 5px;
+    }
+
+    #dropdownMenu ul li a {
+      text-decoration: none;
+      color: black;
+    }
+    </style>
+    <style>
+      /* Override the anchor tag styles to make the text look like the original text */
+      .button-menu a {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+        margin-right: 40px;
+      }
+      .website-feedback a {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .try-now1 {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .sign-up1 {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    </style>
+    <style>
+      body {
+        zoom: 110%;
+      }
+    </style>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    #chat-container {
+        width: 400px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 10px;
+        background-color: #f2f2f2;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #message-box {
+        height: 200px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        overflow-y: scroll;
+        font-size: 14px; /* Adjust the font size */
+        line-height: 1.2; /* Adjust the line height */
+        word-break: break-word; /* Break long words if needed */
+        letter-spacing: -0.5px; /* Adjust the letter spacing */
+    }
+
+    #input-box {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    #user-input {
+        flex-grow: 1;
+        margin-right: 10px;
+    }
+
+    #send-button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+</style>
+</head>
+<body>
+    <style>
+        /* Apply the zoom to the w3-image class */
+        .w3-image {
+          transform: scale(1.025); /* 110% zoom */
+          -ms-transform: scale(1.1); /* For Internet Explorer */
+          margin-top: 20px;
+          /* Add other vendor prefixes if needed for specific browser support */
+        }
+      </style>
+
+
+<div class="component-6">
+    <div class="navigation">
+      <div class="navigation-line"></div>
+      <div class="avatar"></div>
+      <div class="button-menu">
+        <a href="/">Home</a>
+        <a href="/chatbot">Chat</a>
+        <a href="/diary">Diary</a>
+        <a href="/status">Status</a>
+        <a href="/friends">Friends</a>
+        <a href="#" id="funLink">Fun</a>
+        <div id="dropdownMenu">
+          <ul>
+            <li><a href="/movies">Movies</a></li>
+            <li><a href="/music">Music</a></li>
+            <li><a href="/sleep">Sleep</a></li>
+          </ul>
+        </div>
+
+        
+        <script src="{{ url_for('static', filename='public/scriptdropdown.js') }}"></script>
+        
+      </div>
+      <div class="howde">Howde</div>
+      <img class="logo-icon" alt="" src="{{ url_for('static', filename='public/logo@2x.png') }}" />
+
+      <div class="bell"></div>
+      <img class="user-icon" alt="" src="{{ url_for('static', filename='public/user.svg') }}" />
+    </div>
+    <img class="icons1" alt="" src="{{ url_for('static', filename='public/icons.svg') }}" />
+</div>
+<header class="w3-display-container w3-content w3-wide" style="max-width: 1500px;" id="home">
+    <img class="w3-image" src="https://cdn.discordapp.com/attachments/1137719063808856089/1137783119152431144/image.png">
+    <div class="w3-display-middle w3-margin-top w3-center">
+      <!-- The chat container with position adjustments -->
+      <div id="chat-container" style="position: relative; top: 0px; right: -150px;">
+        <div id="message-box"></div>
+        <div id="input-box">
+          <input type="text" id="user-input" placeholder="Type your message..." onkeydown="handleKeyDown(event)" />
+          <button id="send-button" onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+
+<script>
+    var socket = new WebSocket("ws://localhost:8000/chat"); // Replace with your server's WebSocket URL
+
+    socket.onopen = function(event) {
+        console.log("WebSocket connection established.");
+    };
+
+    socket.onmessage = function(event) {
+        var botMessage = event.data;
+        var messageBox = document.getElementById("message-box");
+
+        var messageDiv = document.createElement("div");
+        messageDiv.innerHTML = "<strong>Bot:</strong><br>" + botMessage.replace(/\n/g, "<br>") + "<br><br>";
+        messageBox.appendChild(messageDiv);
+    };
+
+    socket.onerror = function(error) {
+        console.error("WebSocket error:", error);
+    };
+
+    function sendMessage() {
+        var userMessage = document.getElementById("user-input").value;
+        var messageBox = document.getElementById("message-box");
+
+        if (userMessage.trim() !== "") {
+            var messageDiv = document.createElement("div");
+            messageDiv.innerHTML = "<strong>You:</strong><br>" + userMessage.replace(/\n/g, "<br>") + "<br><br>";
+            messageBox.appendChild(messageDiv);
+
+            document.getElementById("user-input").value = "";
+
+            socket.send(userMessage); // Send user message via WebSocket
+        }
+    }
+    
+    function handleKeyDown(event) {
+        if (event.key === 'Enter') {
+            event.preventDefault(); // Prevent the default behavior (form submission)
+            sendMessage(); // Call the sendMessage function to send the message
+        }
+    }
+</script>
+
+</body>
+</html>

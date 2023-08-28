@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #dropdownMenu {
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: 550px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+      }
+  
+      #dropdownMenu.active {
+        display: block;
+      }
+  
+      #dropdownMenu ul {
+        list-style-type: none;
+        padding: 0;
+      }
+  
+      #dropdownMenu ul li {
+        padding: 5px;
+      }
+  
+      #dropdownMenu ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      </style>
+      <style>
+        /* Override the anchor tag styles to make the text look like the original text */
+        .button-menu a {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+          margin-right: 40px;
+        }
+        .website-feedback a {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .try-now1 {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .sign-up1 {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      </style>
+      <style>
+        body {
+          zoom: 110%;
+        }
+      </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='global-movies.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='index-movies.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="movie-reduce">
+      <div class="movie">
+        <b class="movie1">MOVIE</b>
+        <div class="film-1">
+          <div class="film-1-inner">
+            <img
+              class="instance-child"
+              alt=""
+              src="{{ url_for('static', filename='public/rectangle-4167@2x.png') }}"
+            />
+          </div>
+          <div class="klaus">Klaus</div>
+          <div class="rest-and-relax">Rest and relax</div>
+        </div>
+        <div class="film-5">
+          <div class="film-1-inner">
+            <img
+              class="instance-child"
+              alt=""
+              src="{{ url_for('static', filename='public/rectangle-4167@2x.png') }}"
+            />
+          </div>
+          <div class="klaus">Klaus</div>
+          <div class="rest-and-relax">Rest and relax</div>
+        </div>
+        <div class="film-2">
+          <div class="film-1-inner">
+            <img
+              class="instance-child"
+              alt=""
+              src="{{ url_for('static', filename='public/rectangle-41671@2x.png') }}"
+            />
+          </div>
+          <div class="ernest-and-celestine">Ernest and Celestine</div>
+          <div class="rest-and-relax">Friendship</div>
+        </div>
+        <div class="film-6">
+          <div class="film-1-inner">
+            <img
+              class="instance-child"
+              alt=""
+              src="{{ url_for('static', filename='public/rectangle-41671@2x.png') }}"
+            />
+          </div>
+          <div class="ernest-and-celestine">Ernest and Celestine</div>
+          <div class="rest-and-relax">Friendship</div>
+        </div>
+        <div class="film-3">
+          <div class="film-1-inner">
+            <img
+              class="instance-child"
+              alt=""
+              src="{{ url_for('static', filename='public/rectangle-41672@2x.png') }}"
+            />
+          </div>
+          <div class="boss-baby">Boss baby</div>
+          <div class="family">Family</div>
+        </div>
+        <div class="film-7">
+          <div class="film-1-inner">
+            <img
+              class="instance-child"
+              alt=""
+              src="{{ url_for('static', filename='public/rectangle-41672@2x.png') }}"
+            />
+          </div>
+          <div class="boss-baby">Boss baby</div>
+          <div class="family">Family</div>
+        </div>
+        <div class="film-4">
+          <div class="film-1-inner">
+            <img
+              class="instance-child"
+              alt=""
+              src="{{ url_for('static', filename='public/rectangle-41673@2x.png') }}"
+            />
+          </div>
+          <div class="puss-in-boots">Puss in Boots</div>
+          <div class="adventure-life">Adventure, life</div>
+        </div>
+        <div class="film-8">
+          <div class="film-1-inner">
+            <img
+              class="instance-child"
+              alt=""
+              src="{{ url_for('static', filename='public/rectangle-41673@2x.png') }}"
+            />
+          </div>
+          <div class="puss-in-boots">Puss in Boots</div>
+          <div class="adventure-life">Adventure, life</div>
+        </div>
+      </div>
+      <div class="navigation">
+        <div class="navigation1">
+          <div class="navigation-line"></div>
+          <div class="avatar"></div>
+          <div class="button-menu">
+            <a href="/">Home</a>
+            <a href="/chatbot">Chat</a>
+            <a href="/diary">Diary</a>
+            <a href="/status">Status</a>
+            <a href="/friends">Friends</a>
+            <a href="#" id="funLink">Fun</a>
+            <div id="dropdownMenu">
+              <ul>
+                <li><a href="/movies">Movies</a></li>
+                <li><a href="/music">Music</a></li>
+              </ul>
+            </div>
+
+            
+            <script src="{{ url_for('static', filename='public/scriptdropdown.js') }}"></script>
+            
+          </div>
+          <div class="howde">Howde</div>
+          <img class="logo-icon" alt="" src="{{ url_for('static', filename='public/logo@2x.png') }}" />
+
+          <div class="bell"></div>
+          <img class="user-icon" alt="" src="{{ url_for('static', filename='public/user.svg') }}" />
+        </div>
+        <img class="icons" alt="" src="{{ url_for('static', filename='public/icons.svg') }}" />
+      </div>
+    </div>
+  </body>
+</html>

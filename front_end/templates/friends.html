@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #dropdownMenu {
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: 550px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+      }
+  
+      #dropdownMenu.active {
+        display: block;
+      }
+  
+      #dropdownMenu ul {
+        list-style-type: none;
+        padding: 0;
+      }
+  
+      #dropdownMenu ul li {
+        padding: 5px;
+      }
+  
+      #dropdownMenu ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      </style>
+      <style>
+        /* Override the anchor tag styles to make the text look like the original text */
+        .button-menu a {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+          margin-right: 40px;
+        }
+        .website-feedback a {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .try-now1 {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .sign-up1 {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      </style>
+      <style>
+        body {
+          zoom: 110%;
+        }
+      </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='global-friends.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='index-friends.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="friend-suggest">
+      <div class="navigation">
+        <div class="navigation1">
+          <div class="navigation-line"></div>
+          <div class="avatar"></div>
+          <div class="button-menu">
+            <a href="/">Home</a>
+            <a href="/chatbot">Chat</a>
+            <a href="/diary">Diary</a>
+            <a href="/status">Status</a>
+            <a href="/friends">Friends</a>
+            <a href="#" id="funLink">Fun</a>
+            <div id="dropdownMenu">
+              <ul>
+                <li><a href="/movies">Movies</a></li>
+                <li><a href="/music">Music</a></li>
+
+              </ul>
+            </div>
+
+            
+            <script src="{{ url_for('static', filename='public/scriptdropdown.js') }}"></script>
+            
+          </div>
+          <div class="howde">Howde</div>
+          <img class="logo-icon" alt="" src="{{ url_for('static', filename='/public/logo@2x.png') }}" />
+
+          <div class="bell"></div>
+          <img class="user-icon" alt="" src="{{ url_for('static', filename='/public/user.svg') }}" />
+        </div>
+        <img class="icons" alt="" src="{{ url_for('static', filename='/public/icons.svg') }}" />
+      </div>
+      <div class="request">
+        <b class="requests">Requests</b>
+        <div class="div">
+          <div class="child"></div>
+          <div class="name">
+            <div class="name-child"></div>
+            <div class="name1">Name:</div>
+          </div>
+          <div class="introduction">
+            <div class="name-child"></div>
+            <div class="introduction1">Introduction:</div>
+          </div>
+          <div class="accept">
+            <div class="accept-child"></div>
+            <div class="accept1">Accept</div>
+          </div>
+          <div class="remove">
+            <div class="remove-child"></div>
+            <div class="remove1">Remove</div>
+          </div>
+        </div>
+        <div class="div1">
+          <div class="child"></div>
+          <div class="name">
+            <div class="name-child"></div>
+            <div class="name1">Name:</div>
+          </div>
+          <div class="introduction">
+            <div class="name-child"></div>
+            <div class="introduction1">Introduction:</div>
+          </div>
+          <div class="accept">
+            <div class="accept-child"></div>
+            <div class="accept1">Accept</div>
+          </div>
+          <div class="remove">
+            <div class="remove-child"></div>
+            <div class="remove1">Remove</div>
+          </div>
+        </div>
+        <div class="div2">
+          <div class="child"></div>
+          <div class="name">
+            <div class="name-child"></div>
+            <div class="name1">Name:</div>
+          </div>
+          <div class="introduction">
+            <div class="name-child"></div>
+            <div class="introduction1">Introduction:</div>
+          </div>
+          <div class="accept">
+            <div class="accept-child"></div>
+            <div class="accept1">Accept</div>
+          </div>
+          <div class="remove">
+            <div class="remove-child"></div>
+            <div class="remove1">Remove</div>
+          </div>
+        </div>
+        <div class="div3">
+          <div class="child"></div>
+          <div class="name">
+            <div class="name-child"></div>
+            <div class="name1">Name:</div>
+          </div>
+          <div class="introduction">
+            <div class="name-child"></div>
+            <div class="introduction1">Introduction:</div>
+          </div>
+          <div class="accept">
+            <div class="accept-child"></div>
+            <div class="accept1">Accept</div>
+          </div>
+          <div class="remove">
+            <div class="remove-child"></div>
+            <div class="remove1">Remove</div>
+          </div>
+        </div>
+      </div>
+
+      <img
+        class="arrow-drop-right-icon"
+        alt=""
+        src="{{ url_for('static', filename='/public/arrow-drop-right.svg') }}"
+      />
+
+      <img
+        class="arrow-drop-left-icon"
+        alt=""
+        src="{{ url_for('static', filename='/public/arrow-drop-left.svg') }}"
+      />
+
+      <div class="friend-suggest1">
+        <b class="friends-suggest">Friends suggest </b>
+        <div class="friend-suggest-1">
+          <div class="child"></div>
+          <div class="friend-suggest-1-item"></div>
+          <img class="icon1" alt="" src="{{ url_for('static', filename='/public/icon1.svg') }}" />
+
+          <div class="friend-suggest-1-inner"></div>
+          <div class="friend-suggest-1-child1"></div>
+          <div class="add-friend">Add friend</div>
+          <div class="name8">Name:</div>
+          <div class="introduction8">Introduction:</div>
+        </div>
+        <div class="friend-suggest-2">
+          <div class="child"></div>
+          <div class="friend-suggest-1-item"></div>
+          <img class="icon1" alt="" src="{{ url_for('static', filename='/public/icon1.svg') }}" />
+
+          <div class="friend-suggest-1-inner"></div>
+          <div class="friend-suggest-1-child1"></div>
+          <div class="add-friend">Add friend</div>
+          <div class="name8">Name:</div>
+          <div class="introduction8">Introduction:</div>
+        </div>
+        <div class="friend-suggest-3">
+          <div class="child"></div>
+          <div class="friend-suggest-1-item"></div>
+          <img class="icon1" alt="" src="{{ url_for('static', filename='/public/icon1.svg') }}" />
+
+          <div class="friend-suggest-1-inner"></div>
+          <div class="friend-suggest-1-child1"></div>
+          <div class="add-friend">Add friend</div>
+          <div class="name8">Name:</div>
+          <div class="introduction8">Introduction:</div>
+        </div>
+        <div class="friend-suggest-4">
+          <div class="child"></div>
+          <div class="friend-suggest-1-item"></div>
+          <img class="icon1" alt="" src="{{ url_for('static', filename='/public/icon2.svg') }}" />
+
+          <div class="friend-suggest-1-inner"></div>
+          <div class="friend-suggest-1-child1"></div>
+          <div class="add-friend">Add friend</div>
+          <div class="name8">Name:</div>
+          <div class="introduction8">Introduction:</div>
+        </div>
+        <div class="friend-suggest-child"></div>
+        <div class="see-more">See More</div>
+      </div>
+      <div class="mentor">
+        <b class="psychologycial-mentor">Psychologycial mentor</b>
+        <div class="psycho-s-1">
+          <div class="child"></div>
+          <div class="friend-suggest-1-item"></div>
+          <img class="icon1" alt="" src="{{ url_for('static', filename='/public/icon3.svg') }}" />
+
+          <div class="friend-suggest-1-inner"></div>
+          <div class="friend-suggest-1-child1"></div>
+          <div class="add-friend">Chat now</div>
+          <div class="name12">Name:</div>
+          <div class="introduction8">Introduction:</div>
+        </div>
+        <div class="psycho-s-2">
+          <div class="child"></div>
+          <div class="friend-suggest-1-item"></div>
+          <img class="icon1" alt="" src="{{ url_for('static', filename='/public/icon3.svg') }}" />
+
+          <div class="friend-suggest-1-inner"></div>
+          <div class="friend-suggest-1-child1"></div>
+          <div class="add-friend">Chat now</div>
+          <div class="name12">Name:</div>
+          <div class="introduction8">Introduction:</div>
+        </div>
+        <div class="psycho-s-3">
+          <div class="child"></div>
+          <div class="friend-suggest-1-item"></div>
+          <img class="icon1" alt="" src="{{ url_for('static', filename='/public/icon3.svg') }}" />
+
+          <div class="friend-suggest-1-inner"></div>
+          <div class="friend-suggest-1-child1"></div>
+          <div class="add-friend">Chat now</div>
+          <div class="name12">Name:</div>
+          <div class="introduction8">Introduction:</div>
+        </div>
+        <div class="psycho-s-4">
+          <div class="child"></div>
+          <div class="friend-suggest-1-item"></div>
+          <img class="icon1" alt="" src="{{ url_for('static', filename='/public/icon4.svg') }}" />
+
+          <div class="friend-suggest-1-inner"></div>
+          <div class="friend-suggest-1-child1"></div>
+          <div class="add-friend">Chat now</div>
+          <div class="name12">Name:</div>
+          <div class="introduction8">Introduction:</div>
+        </div>
+        <div class="mentor-child"></div>
+        <div class="see-more1">See More</div>
+      </div>
+    </div>
+  </body>
+</html>

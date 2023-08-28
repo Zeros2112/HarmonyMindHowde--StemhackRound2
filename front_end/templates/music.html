@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #dropdownMenu {
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: 550px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+      }
+  
+      #dropdownMenu.active {
+        display: block;
+      }
+  
+      #dropdownMenu ul {
+        list-style-type: none;
+        padding: 0;
+      }
+  
+      #dropdownMenu ul li {
+        padding: 5px;
+      }
+  
+      #dropdownMenu ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      </style>
+      <style>
+        /* Override the anchor tag styles to make the text look like the original text */
+        .button-menu a {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+          margin-right: 40px;
+        }
+        .website-feedback a {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .try-now1 {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .sign-up1 {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      </style>
+      <style>
+        body {
+          zoom: 110%;
+        }
+      </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='global-music.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='index-music.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="music-reduce">
+      <div class="relaxing-sound">
+        <div class="water"></div>
+        <b class="relaxing-sound1">RELAXING SOUND</b>
+        <div class="component-20">
+          <img
+            class="component-20-child"
+            alt=""
+            src="{{ url_for('static', filename='public/ellipse-67@2x.png') }}"
+          />
+
+          <div class="component-20-item"></div>
+          <div class="component-20-inner"></div>
+        </div>
+        <div class="component-18">
+          <img
+            class="component-20-child"
+            alt=""
+            src="{{ url_for('static', filename='public/ellipse-671@2x.png') }}"
+          />
+
+          <div class="component-20-item"></div>
+          <div class="component-20-inner"></div>
+        </div>
+        <div class="component-21">
+          <img
+            class="component-20-child"
+            alt=""
+            src="{{ url_for('static', filename='public/ellipse-672@2x.png') }}"
+          />
+
+          <div class="component-20-item"></div>
+          <div class="component-20-inner"></div>
+        </div>
+        <div class="component-22">
+          <img
+            class="component-20-child"
+            alt=""
+            src="{{ url_for('static', filename='public/ellipse-673@2x.png') }}"
+          />
+
+          <div class="component-20-item"></div>
+          <div class="component-20-inner"></div>
+        </div>
+        <div class="text-wind">
+          <b class="wind-sound">Wind sound</b>
+        </div>
+        <div class="text-bird-song">
+          <b class="wind-sound">Birdsong</b>
+        </div>
+        <div class="text-drum">
+          <b class="wind-sound">Hang Drum</b>
+        </div>
+        <div class="text-time">
+          <b class="wind-sound">Timer</b>
+        </div>
+        <div class="ocean-waves">
+          <div class="component-19">
+            <img
+              class="component-20-child"
+              alt=""
+              src="{{ url_for('static', filename='public/ellipse-674@2x.png') }}"
+            />
+
+            <div class="component-20-item"></div>
+            <div class="component-20-inner"></div>
+          </div>
+          <div class="text">
+            <b class="wind-sound">Ocean Waves</b>
+          </div>
+          <img class="icon" alt="" src="{{ url_for('static', filename='public/icon.svg') }}" />
+        </div>
+        <img class="icon-cloud" alt="" src="{{ url_for('static', filename='public/icon-cloud.svg') }}" />
+
+        <img class="icon-time" alt="" src="{{ url_for('static', filename='public/icon-time.svg') }}" />
+
+        <img class="earlybirds-icon" alt="" src="{{ url_for('static', filename='public/earlybirds.svg') }}" />
+
+        <img class="drum-icon" alt="" src="{{ url_for('static', filename='public/drum.svg') }}" />
+
+        <div class="rain-falling">
+          <div class="component-19">
+            <img
+              class="component-20-child"
+              alt=""
+              src="{{ url_for('static', filename='public/public/Ellipse 67.png') }}"
+            />
+
+            <div class="component-20-item"></div>
+            <div class="component-20-inner"></div>
+          </div>
+          <img class="video-fill-icon" alt="" src="{{ url_for('static', filename='public/video-fill.svg') }}" />
+
+          <img class="icon-rain" alt="" src="{{ url_for('static', filename='public/icon-rain.svg') }}" />
+
+          <div class="text-rain">
+            <b class="wind-sound">Rain falling</b>
+          </div>
+        </div>
+      </div>
+      <div class="music">
+        <div class="music1">
+          <b class="music2">MUSIC</b>
+          <div class="music-1">
+            <div class="music-1-inner">
+              <img
+                class="instance-child"
+                alt=""
+                src="{{ url_for('static', filename='public/Rectangle4167.png') }}"
+              />
+            </div>
+            <div class="head-in-the">Head in the cloud</div>
+            <div class="rest-and-relax">Rest and relax</div>
+          </div>
+          <div class="music-2">
+            <div class="music-1-inner">
+              <img
+                class="instance-child"
+                alt=""
+                src="{{ url_for('static', filename='public/Rectangle 4167 (1).png') }}"
+              />
+            </div>
+            <div class="until-i-found">Until i found you</div>
+            <div class="rest-and-relax">Lo-fi chill</div>
+          </div>
+          <div class="music-4">
+            <div class="music-1-inner">
+              <img
+                class="instance-child"
+                alt=""
+                src="{{ url_for('static', filename='public/Rectangle 4167 (3).png') }}"
+              />
+            </div>
+            <div class="only-the-young">Only the young</div>
+            <div class="refresh-your-life">Refresh your life energy</div>
+          </div>
+          <div class="music-3">
+            <div class="music-31">
+              <div class="music-1-inner">
+                <img
+                  class="instance-child"
+                  alt=""
+                  src="{{ url_for('static', filename='public/Rectangle 4167222222.png') }}"
+                />
+              </div>
+              <div class="stand-by-you">Stand by you</div>
+              <div class="boost-the-energy">Boost the energy</div>
+            </div>
+            <div class="new-release">
+              <div class="new-release-child"></div>
+              <div class="new-release1">NEW RELEASE</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        <div class="navigation1">
+          <div class="navigation-line"></div>
+          <div class="avatar"></div>
+          <div class="button-menu">
+            <a href="/">Home</a>
+            <a href="/chatbot">Chat</a>
+            <a href="/diary">Diary</a>
+            <a href="/status">Status</a>
+            <a href="/friends">Friends</a>
+            <a href="#" id="funLink">Fun</a>
+            <div id="dropdownMenu">
+              <ul>
+                <li><a href="/movies">Movies</a></li>
+                <li><a href="/music">Music</a></li>
+              </ul>
+            </div>
+
+            
+            <script src="{{ url_for('static', filename='public/scriptdropdown.js') }}"></script>
+            
+          </div>
+          <div class="howde">Howde</div>
+          <img class="logo-icon" alt="" src="{{ url_for('static', filename='public/logo@2x.png') }}" />
+
+          <div class="bell"></div>
+          <img class="user-icon" alt="" src="{{ url_for('static', filename='public/user.svg') }}" />
+        </div>
+        <img class="icons" alt="" src="{{ url_for('static', filename='public/icons.svg') }}" />
+      </div>
+    </div>
+  </body>
+</html>

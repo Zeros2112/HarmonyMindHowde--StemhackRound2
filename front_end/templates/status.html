@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #dropdownMenu {
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: 550px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+      }
+  
+      #dropdownMenu.active {
+        display: block;
+      }
+  
+      #dropdownMenu ul {
+        list-style-type: none;
+        padding: 0;
+      }
+  
+      #dropdownMenu ul li {
+        padding: 5px;
+      }
+  
+      #dropdownMenu ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      </style>
+      <style>
+        /* Override the anchor tag styles to make the text look like the original text */
+        .button-menu a {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+          margin-right: 40px;
+        }
+        .website-feedback a {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .try-now1 {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .sign-up1 {
+          color: inherit;
+          text-decoration: none;
+          cursor: pointer;
+        }
+      </style>
+      <style>
+        body {
+          zoom: 110%;
+        }
+      </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='index-status.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='global-status.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="status-reduce">
+      <div class="date">
+        <div class="date-line"></div>
+        <b class="month-year">August 2023</b>
+        <img
+          class="previous-button-icon"
+          alt=""
+          src="{{ url_for('static', filename='public/previous-button.svg') }}"
+        />
+
+        <img class="next-button-icon" alt="" src="{{ url_for('static', filename='public/next-button.svg') }}" />
+
+        <div class="week">
+          <b class="mon">Mon</b>
+          <b class="sun">Sun</b>
+          <b class="tue">Tue</b>
+          <b class="wed">Wed</b>
+          <b class="thu">Thu</b>
+          <b class="fri">Fri</b>
+          <b class="sat">Sat</b>
+        </div>
+        <div class="days">
+          <b class="b">6</b>
+          <b class="b1">7</b>
+          <b class="b2">8</b>
+          <b class="b3">9</b>
+          <b class="b4">10</b>
+          <b class="b5">11</b>
+          <b class="b6">12</b>
+          <b class="b7">1</b>
+          <b class="b8">2</b>
+          <b class="b9">3</b>
+          <b class="b10">4</b>
+          <b class="b11">13</b>
+          <b class="b12">14</b>
+          <b class="b13">15</b>
+          <b class="b14">16</b>
+          <b class="b15">17</b>
+          <b class="b16">18</b>
+          <b class="b17">19</b>
+          <b class="b18">20</b>
+          <b class="b19">21</b>
+          <b class="b20">22</b>
+          <b class="b21">23</b>
+          <b class="b22">24</b>
+          <b class="b23">25</b>
+          <b class="b24">26</b>
+          <b class="b25">27</b>
+          <b class="b26">28</b>
+          <b class="b27">29</b>
+          <b class="b28">30</b>
+          <b class="b29">31</b>
+          <div class="today5">
+            <div class="today5-child"></div>
+            <b class="b30">5</b>
+          </div>
+        </div>
+      </div>
+      <div class="status-button">
+        <div class="status-button-child"></div>
+        <b class="status">status</b>
+      </div>
+      <div class="note-button">
+        <div class="note-button-child"></div>
+        <b class="note">note</b>
+      </div>
+      <div class="write-status">
+        <div class="status-line"></div>
+        <b class="date1">Sat August 2023</b>
+        <div class="question1">Tell me about your day?</div>
+        <img class="line-icon" alt="" src="{{ url_for('static', filename='public/line.svg') }}" />
+      </div>
+      <div class="save-button">
+        <div class="save-button-child"></div>
+        <b class="save">Save</b>
+      </div>
+      <div class="navigation">
+        <div class="navigation1">
+          <div class="navigation-line"></div>
+          <div class="avatar"></div>
+          <div class="button-menu">
+            <a href="/">Home</a>
+            <a href="/chatbot">Chat</a>
+            <a href="/diary">Diary</a>
+            <a href="/status">Status</a>
+            <a href="/friends">Friends</a>
+            <a href="#" id="funLink">Fun</a>
+            <div id="dropdownMenu">
+              <ul>
+                <li><a href="/movies">Movies</a></li>
+                <li><a href="/music">Music</a></li>
+
+              </ul>
+            </div>
+
+            
+            <script src="{{ url_for('static', filename='public/scriptdropdown.js') }}"></script>
+            
+          </div>
+          <div class="howde">Howde</div>
+          <img class="logo-icon" alt="" src="{{ url_for('static', filename='public/logo@2x.png') }}" />
+
+          <div class="bell"></div>
+          <img class="user-icon" alt="" src="{{ url_for('static', filename='public/user.svg') }}" />
+        </div>
+        <img class="icons" alt="" src="{{ url_for('static', filename='public/icons.svg') }}" />
+      </div>
+    </div>
+  </body>
+</html>
